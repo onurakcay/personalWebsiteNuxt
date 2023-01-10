@@ -36,8 +36,8 @@ export default {
   <div class="techStack">
     
     <v-row no-gutters>
-      <v-col v-for="(logo, index) in logos" :key="index" cols="12" sm="12" md="3">
-        <v-card class="ma-2 pa-2" max-width="344" variant="tonal" :key="item">
+      <v-col v-for="(logo, index) in logos" :key="index" cols="6" sm="3">
+        <v-card class="ma-2 pa-2"  tonal :key="item">
           <v-card-item>
             <div>
               <div class="text-h6 mb-1 cardImage">

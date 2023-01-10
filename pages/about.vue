@@ -31,17 +31,17 @@ export default {
     <p>
       Here, check out my
 
-      <a class="link" href="/tech-stack"> tech stack </a>,
+      <a class="link" href="/tech-stack">tech stack</a>,
       <v-tooltip top>
         <template v-slot:activator="{ on, attrs }">
-          <a v-bind="attrs" v-on="on" class="disabled-link"> projects </a>
+          <a v-bind="attrs" v-on="on" class="disabled-link">projects</a>
         </template>
         <span>Coming Soon</span>
       </v-tooltip>
       and also
       <v-tooltip top>
         <template v-slot:activator="{ on, attrs }">
-          <a v-bind="attrs" v-on="on" class="disabled-link"> blogs </a>
+          <a v-bind="attrs" v-on="on" class="disabled-link">blogs</a>
         </template>
         <span>Coming Soon</span>
       </v-tooltip>
